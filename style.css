@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  :root {
+    --white: #ffffff;
+    --off-white: #e5e5e5;
+    --transp-white-1: rgba(255, 255, 255, 0.25);
+    --transp-white-2: rgba(255, 255, 255, 0.1);
+    --blue-1: #62b8f5;
+    --blue-2: #4475ef;
+    --shadow: rgba(3, 46, 87, 0.2);
+  }
+  body {
+    height: 100vh;
+    background-image: url(/images/pexels-kaique-rocha-125510.jpg);
+    background-repeat: no-repeat;
+    background-size: 1920px 1080px;
+    ;
+  }
+  .section {
+    font-size: 18px;
+    width: 100vw;
+    max-width: 30em;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+  }
+  .container {
+    width: 100%;
+    background: linear-gradient(90deg, rgba(238, 130, 238, 1) 0%, rgba(0, 209, 255, 1) 100%);;
+    padding: 3em 1.8em;
+    border: 2px solid var(--transp-white-2);
+    border-radius: 0.9em;
+    box-shadow: 0 1.8em 3.7em var(--shadow);
+    text-align: center;
+    margin: ;
+  }
+  #h2{
+    margin-top: 0;
+    padding-bottom: 2.5vmin;
+  }
+  .search-container {
+    font-size: 1em;
+    display: grid;
+    grid-template-columns: 9fr 3fr;
+    gap: 1.25em;
+    border-radius: 0.9em;
+  }
+
+  .search-container input {
+    padding: 0.7em;
+    background-color: #fff;
+    color: black;
+    font-weight: 300;
+    border-radius: 0.4em;
+    outline: none;
+    font-size: 1em;
+    border: none;
+  }
+  #city input::placeholder {
+    color: rgba(255, 255, 255, 0.25);
+  }
+
+  .search-container button {
+    color: var(--blue-2);
+    background-color: var(--white);
+    border-radius: 0.3em;
+    font-size: 1em;
+    border: none;
+    outline: none;
+  }
+  button:hover{
+    background-color: #e5e5e5;
+    font-weight: 700;
+  }
+  #result {
+    color: #430A5D;
+    background-color: #e5e5e5;
+    letter-spacing: 0.18em;
+    font-weight: 500;
+    border-radius: 1.5vmin;
+    height: 55vmin;
+    margin-top: 5vmin;
+  }
+  #result .output{
+    margin: 5vmin;
+    top: 50%;
+    
+ }
+ .output h2{
+    text-transform: uppercase;
+    padding: 1.5vmin;
+    align-self: center;
+ }
+ .output h4{
+    text-transform: uppercase;
+    align-self: center;
+    padding-bottom: 1.5vmin;
+ }
+ .output h3{
+    text-transform: uppercase;
+    align-self: center;
+    padding-bottom: 1.5vmin;
+ }
+ .extra{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows:auto auto;
+    margin: 1vmin;
+ }
+ .extra1{
+    display: grid;
+    padding: 1vmin;
+ }
+ .extra1 span:nth-of-type(1){
+    font-weight: 600;
+    padding: 0.5vmin;
+    background-color: aquamarine;
+ }
+ .extra1 span:nth-of-type(2){
+    padding: 0.5vmin;
+    background-color: aquamarine;
+ }
+ .extra2{
+    display: grid;
+    padding: 1vmin;
+ }
+ .extra2 span:nth-of-type(1){
+    font-weight: 600;
+    background-color: aquamarine;
+    padding: 0.5vmin;
+ }
+ .extra2 span:nth-of-type(2){
+    padding: 0.5vmin;
+    background-color: aquamarine;
+ }
