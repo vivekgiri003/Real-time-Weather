@@ -2,7 +2,7 @@
 const result = document.querySelector("#result");
 const button = document.querySelector("#btn");
 const city = document.querySelector("#city");
-const key = "8b7aac3f0c1a1d80973061acd7c6b729";
+const key = your key;
 // fetch detail from weather api
 
 const setValues = (data)=>{
